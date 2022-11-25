@@ -1,0 +1,44 @@
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.subtitle{
+    color: rgb(65, 63, 63);
+    font-weight: 400;
+}
+
+.block{
+    margin-bottom: 120px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
+.button{
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.button-primay{
+    background-color: rgb(171, 130, 238);
+    border-color: rgb(145, 25, 201);
+}
+
+.button-primay:hover{
+    background-color: rgb(135, 40, 224);
+    border-color: rgb(145, 25, 201);
+}
+.button-primay-outline{
+    border-color: rgb(133, 23, 167);
+    color:rgb(132, 14, 168);
+}
+.button-primay-outline:hover{
+    border-color: rgb(171, 130, 238);
+    background-color: rgb(135, 40, 224);
+}

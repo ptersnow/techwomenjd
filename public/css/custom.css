@@ -1,0 +1,492 @@
+body.html{
+    font-family: 'Urbanist', sans-serif;
+    text-align: justify;
+    
+}
+
+#header{
+    width: 100%;
+    background-color: #efe6fa;
+    transition: background ease-out 0.2s;
+}
+
+.logo{
+    color: #0e0d0d;
+}
+
+.logo a{
+    font-family: 'kage black';
+    font-size: 32px;
+}
+
+.menu{
+    width: 65%;
+    font-weight: bold;
+    text-align: right;
+}
+
+.menu a{
+    color: #121213;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 12px;
+  
+}
+
+#header.active{
+    position: fixed;
+    background-color: #cfb8fa;
+    box-shadow: 0 0 30px 0 (rgba(10, 0, 19, 0.5));
+    z-index: 9999;
+}
+
+#header.navbar-collapse{
+    width: auto;
+}
+
+#header.nav-link{
+    text-transform: uppercase;
+    font-size: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: rgb(20, 20, 20);
+    border-bottom: solid 4px transparent;
+}
+
+#header.nav-link:hover{
+    border-bottom: solid 4px black;
+    color:rgb(0, 44, 139);
+}
+
+#slider h1{
+    margin-top:200px;
+    text-transform: uppercase;
+    text-shadow: 8px -8px rgb(240, 236, 236); 
+    font-weight: 800; 
+    
+    }
+
+#slider h2{
+    margin-top:200px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#slider h4{
+    text-align: justify;
+    font-size: 16px;
+}
+
+#slider p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+#slider .container img{
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
+
+#Info .container p{
+    text-align: justify;
+    font-size: 16px; 
+}
+
+#mulheres.container img{
+    margin-top: 10px;
+}
+
+#slider .container p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+#contato.email {
+    border-radius: 5px;
+    background-color:rgb(201, 8, 201);
+    color:rgb(252, 252, 252);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+    
+}
+  
+#contato.email svg{
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+
+#contato.email form{
+    width: 20%;
+    display: flex;
+}
+
+#contato.email.form-control,
+#contato.email.form-control::placeholder{
+    background: none;
+    color: #fff;
+}
+
+#contato ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contato ul li{
+    display: flex;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+#contato ul li:first-child{
+    margin-left: 0;
+}
+
+/** links do rodape ex:intagram...*/
+#contato ul {
+    position: absolute;
+    right: 70px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+    margin-top: 30px;
+    
+    
+}
+
+#plano {background-image: url(/imagens/avisos.svg); 
+    background-repeat: no-repeat; background-position: 900px 260px;
+
+}
+
+#vag {background-image: url(/imagens/cadastro.svg); 
+    background-repeat: no-repeat; background-position: 900px 260px;
+
+}
+
+
+#contato h2{
+    margin-top: 5px;
+}
+/***/
+#contato .email {
+    border-radius: 5px;
+    background-color:#cfb8fa;
+    color:rgb(8, 8, 8);
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 200px;
+   
+}  
+
+
+#img{
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+        
+#contato .email form {
+    width: 60%;
+    display:flex;
+}
+       
+#edit_btn{
+    margin-left: 10px;
+    margin-top: 23px;
+           
+}
+         
+#contato .email .form-control{
+    background-color: none;
+    color: rgb(173, 121, 173);
+}
+
+#contato h2{
+    font-weight: 700;
+}
+        
+#contato ul {
+    margin-right: 105px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+         
+ #contato ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+         
+#contato ul li:first-child {
+    margin-right: 0px;
+}
+         
+#contato ul li a {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+#contato ul li a:hover {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    background-color: var(--hd);
+}
+         
+#contato ul li img {
+    max-height: 45px;
+}
+
+/** rodape 
+footer{
+    background-color:#cfb8fa;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 400px;
+    font-size: 16px;
+    margin-top: 60px;
+    color: rgb(34, 33, 33);
+    font-family: 'Courier New', Courier, monospace;
+    flex: 1 0 auto;
+}
+
+footer svg{
+    margin-right: 1000px;
+
+}
+*/
+/** botao cadastrar do rodape*/
+#edit_btn{
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+#coment img{
+    margin-right: 1000px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#fotos h2{
+    margin-top: 70px;
+}
+
+#fotos a.destaque{
+    width: 370px;
+    height: 420px;
+    margin-left: 90px;
+    margin-top: 20px;
+    display: block;
+    background-color: #d1bdf988;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#fotos a.destaque:hover{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+
+#comentarios h2{
+    margin-top: 70px;
+}
+
+#comentarios a.destaque{
+    width: 300px;
+    height: 460px;
+    margin-left: 35px;
+    margin-top: 20px;
+    display: block;
+    background-color: #e7ddfc88;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#comentarios a.destaque:hover{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+
+#card iframe{
+    margin-top: 20px;
+}
+
+.form{
+   margin-top: 50px;
+}
+
+
+#introdution  {
+    margin-top: 50px;   
+    margin-bottom: 30px;  
+}
+
+#introdution .h2{
+    margin-top: 30px;
+}
+
+
+/** css das paginas das historias das pioneiras*/
+#historia  h2{
+    margin-top: 70px;
+}
+#historia p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#historia img{
+    float: right;
+    margin: 0 0 18px 18px;
+}
+
+#historia ul li{
+    list-style-type: none;
+    margin-top: 25px;
+    align-items: center;
+}
+
+#historia a{
+    font-family: 'sans serif';
+    font-size: 22px;
+    color:rgb(66, 15, 124)   
+}
+
+#historia h4{
+    margin-left: 45px;
+    text-transform: none;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+}
+
+/** css da pagina inicial da historias das pioneiras*/
+#pioneiras .card{
+    margin-left: 50px;
+}
+
+#pioneiras .container img{
+    margin-top: 10px;
+    
+}
+
+/**formulario vagas e network*/
+#vaga label{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#topo{
+    margin-top: 10px;
+}
+
+#linha{
+    margin-top: 100px;
+} 
+
+#network h3{
+    margin-top: 40px;
+}
+
+#network .form.label{
+    font-weight: bold;
+}
+
+#network .card{
+    display: flex;
+    margin-top: 50px;
+    height: 350px;
+    background-color:rgb(229, 223, 250);
+}
+
+#network .h2{
+    margin-top: 4px;
+}
+
+/** configurações dos cards do chat*/
+#chat img{
+   margin-top: 5px;
+   height: 80px;
+   padding-left: 2px;
+}
+
+#chat .card{
+    margin-top: 25px;
+    background-color:rgba(243, 242, 242, 0.555);
+}
+
+#chat h6{
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+#chat p{
+    text-align: justify;
+    
+}
+
+/** configurações dos avisos do rodapé*/
+
+#card iframe{
+    margin-top: 20px;
+}
+
+.form{
+   margin-top: 50px;
+}
+
+#confirmacao {
+    position: absolute; 
+	margin-left: 30%;
+	top: 28%; 
+    background-color:  #E6E6FA;
+    box-shadow: 0 0 30px 0 (rgba(10, 0, 19, 0.5));
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+
